@@ -24,3 +24,10 @@ git config --global commit.gpgsign true
 git config --global core.editor "vim +startinsert"
 git config --global alias.co checkout
 git config --global alias.s status
+
+################################################################################
+## Setup NVM                                                                  ##
+################################################################################
+
+# Remove NPM prefix
+npm config delete prefix

@@ -22,7 +22,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
 git config --global pull.ff only
 git config --global commit.gpgsign true
-git config --global core.editor "vim +startinsert"
+git config --global core.editor 'vim "+normal gg" +startinsert!'
 git config --global alias.co checkout
 git config --global alias.s status
 

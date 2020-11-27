@@ -35,10 +35,6 @@ setopt HIST_REDUCE_BLANKS
 # Setup GPG TTY
 export GPG_TTY=$(tty)
 
-# Setup Git
-export GIT_COMMITTER_EMAIL="branoholy@gmail.com"
-export GIT_COMMITTER_NAME="Branislav Holý"
-
 # Setup NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
